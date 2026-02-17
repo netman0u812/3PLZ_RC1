@@ -1,0 +1,13 @@
+
+$TTL 86400
+@   IN  SOA ns1.example.com. admin.example.com. (
+        2025090501 ; Serial
+        3600       ; Refresh
+        1800       ; Retry
+        604800     ; Expire
+        86400 )    ; Minimum TTL
+
+    IN  NS  ns1.example.com.
+1   IN  PTR ns1.example.com.
+10  IN  PTR webserver1.example.com.
+20  IN  PTR oldserver.example.com.
