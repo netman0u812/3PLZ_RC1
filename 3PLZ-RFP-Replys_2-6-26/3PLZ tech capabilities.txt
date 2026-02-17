@@ -1,0 +1,37 @@
+Technical Capabilities Delivered by 3PLZ
+A. Fully Isolated Zero Trust Tenant Architecture
+
+Each third party operates within a dedicated Virtual Landing Zone with its own routing, addressing, DNS, and security boundaries.
+No direct access to internal networks; all communication forced through governed service entry points.
+
+B. Automated, Standardized IPsec VPN Connectivity
+
+System‑generated IPsec configuration bundles ensure consistent crypto, routing, and tunnel parameters across all vendors.
+High‑availability tunnel endpoints provide reliable and location‑agnostic termination.
+
+C. Layer‑7 Service‑Pattern Proxies for All Integrations
+Three major categories of proxy capabilities:
+
+Secure File Transfer (SFTP/SSH) with authentication, audit logging, and optional inspection.
+Application‑Aware Proxies for Web, API, SaaS, and Collaboration apps with mTLS, OAuth, JWT, header/path controls, and rate enforcement.
+VDI Connectivity using tenant‑specific proxy endpoints for controlled remote desktop access.
+
+D. DNS‑Driven Control Plane
+
+Per‑tenant DNS views, rewriting, and conditional forwarding ensure that all traffic resolves to the correct proxy endpoints.
+DNS validation ties application reachability to authenticated, policy‑enforced resolution paths.
+
+E. End‑to‑End Automation Through APIs
+
+All workflow steps — from request intake to VPN provisioning to proxy creation — are API‑driven.
+Supports integration with Terraform, Ansible, CI/CD pipelines, and other automation systems.
+
+F. Comprehensive Observability and Logging
+
+Detailed logs for proxy traffic, DNS activity, tunnel state, and routing sessions.
+Per‑tenant metrics and telemetry exported into enterprise monitoring platforms for visibility and correlation.
+
+G. Governance Anchored in Enterprise Identity and PKI
+
+Role‑based access controls across the portal and APIs ensure only authorized users can request, approve, and manage connectivity.
+Integrated PKI workflows for certificate issuance, renewal, and identity‑based authentication for Web and API patterns.
